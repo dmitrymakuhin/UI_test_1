@@ -1,0 +1,9 @@
+
+
+<suite name="Auth suite">
+    <test name="Auth tests">
+        <classes>
+            <class name="tests.NegativeAuthTests" />
+        </classes>
+    </test>
+</suite>

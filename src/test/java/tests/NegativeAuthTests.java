@@ -12,7 +12,7 @@ public class NegativeAuthTests extends TestInit {
     private Object[][] getDataPassword() {
         return new Object[][] {
                 {"1", "Min length is 8"},
-                {"9853232578325787987983257878328723-19875-129837-58123789-", "Max len 20"},
+                {"9853232578325787987983257878328723-19875-129837-58123789-", "Max length is 20"},
                 {"админ1234", "Only latin letters or numbers and chars"},
                 {"11111111111", "At least 1 lowercase alphabetical character"}
         };
